@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.head{
+    background-color: lightseagreen;
+    height: 80px;
+    text-align: center;
+}
+.head h2{
+    color: white;
+    padding-top: 12px;
+    font-size: 40px;
+}
+.sec1{
+    display: block;
+    height: 250px;
+    margin-top: 40px;
+    text-align: center;
+}
+.sec1 img{
+    padding: 0;
+    margin-right: 50px;
+}
+.pic1{
+    border: 12px solid lightseagreen;
+    width: 200px;
+    height: 180px;
+}
+.pic2{
+    border: 12px dashed lightseagreen;
+    width: 200px;
+    height: 180px;
+}
+.pic3{
+    border: 12px dotted lightseagreen;
+    width: 200px;
+    height: 180px;
+}
+.sec2{
+    text-align: center;
+    margin-top: 0;
+}
+.sec2 img{
+    padding: 0;
+    margin-right: 50px;
+}
+.pic4{
+    border: 12px ridge lightseagreen;
+    width: 200px;
+    height: 180px;
+}
+.pic5{
+    border: 12px groove lightseagreen;
+    width: 200px;
+    height: 180px;
+}
+.sec3{
+    text-align: center;
+    margin-top: 60px;
+}
+.sec3 img{
+    margin-right: 50px;
+}
+.pic6{
+    border: 12px double lightseagreen;
+    width: 200px;
+    height: 180px;
+}
+.pic7{
+    width: 200px;
+    height: 180px;
+}
+.sec4{
+    margin-top: 60px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerdiv{
+    position: absolute;
+    width: 800px;
+    height: 350px;
+    border-top: 10px solid green;
+    border-right: 10px solid magenta;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid crimson;
+    background-color: lightseagreen;
+    color: white;
+
+}
+h3{
+    margin-top: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.innerdiv p{
+    margin-top: 12px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+.footer{
+    height: 60px;
+    margin-top: 50px;
+    background-color: lightseagreen;
+}
+.footer ul li{
+    display: inline-block;
+}
+ul{
+    margin-left: 40%;
+}
+li{
+    padding-right: 45px;
+    margin-top: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
